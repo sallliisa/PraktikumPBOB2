@@ -1,8 +1,8 @@
 /*
  * Nama File     : Titik.java
  * Deskripsi     : berisi atribut dan method dalam class Titik
- * Pembuat       :
- * Tanggal       :
+ * Pembuat       : M. Ghani Aryasuta
+ * Tanggal       : 25 Februari 2026
  */
 
 public class Titik {
@@ -17,7 +17,6 @@ public class Titik {
         ordinat = 0;
     }
 
-    // konstruktor untuk membuat titik (absis, ordinat)
     public Titik(double absis, double ordinat) {
         this.absis = absis;
         this.ordinat = ordinat;
@@ -49,7 +48,6 @@ public class Titik {
         ordinat = ordinat + y;
     }
 
-    // mengembalikan kuadran titik (0 jika berada pada sumbu)
     public int getKuadran() {
         if (absis > 0 && ordinat > 0) {
             return 1;
@@ -63,34 +61,28 @@ public class Titik {
         return 0;
     }
 
-    // mengembalikan jarak titik terhadap titik pusat (0,0)
     public double getJarakPusat() {
         return Math.sqrt(absis * absis + ordinat * ordinat);
     }
 
-    // mengembalikan jarak titik ini terhadap titik T
     public double getJarak(Titik T) {
         double deltaX = absis - T.getAbsis();
         double deltaY = ordinat - T.getOrdinat();
         return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
     }
 
-    // merefleksikan titik terhadap sumbu X
     public void refleksiX() {
         ordinat = -ordinat;
     }
 
-    // merefleksikan titik terhadap sumbu Y
     public void refleksiY() {
         absis = -absis;
     }
 
-    // mengembalikan titik hasil refleksi terhadap sumbu X
     public Titik getRefleksiX() {
         return new Titik(absis, -ordinat);
     }
 
-    // mengembalikan titik hasil refleksi terhadap sumbu Y
     public Titik getRefleksiY() {
         return new Titik(-absis, ordinat);
     }
