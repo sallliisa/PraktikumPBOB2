@@ -13,5 +13,7 @@ public class MTitik {
         T1.printTitik(); // mencetak koordinat T1 ke layar
         T1.geser(3, 4); // menggeser T1 sejauh (3,4)
         T1.printTitik(); // menampilkan koordinat T1 setelah digeser
+        Titik T2 = T1.getRefleksiX();
+        T2.printTitik();
     }
 }
