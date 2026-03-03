@@ -7,26 +7,33 @@
 
 public class MGaris {
     public static void main(String[] args) {
-        Titik T1 = new Titik(0, 0);
-        Titik T2 = new Titik(4, 4);
-        Garis G1 = new Garis(T1, T2);
+        Garis gDefault = new Garis();
+        Garis g1 = new Garis(new Titik(0, 0), new Titik(4, 4));
+        Garis g2 = new Garis(new Titik(1, 1), new Titik(5, 5));
+        Garis g3 = new Garis(new Titik(0, 4), new Titik(4, 0));
 
-        Titik T3 = new Titik(1, 1);
-        Titik T4 = new Titik(5, 5);
-        Garis G2 = new Garis(T3, T4);
+        System.out.println("counterGaris: " + Garis.getCounterGaris());
 
-        Titik T5 = new Titik(0, 4);
-        Titik T6 = new Titik(4, 0);
-        Garis G3 = new Garis(T5, T6);
+        System.out.println("g1 TAwal:");
+        g1.getTAwal().printTitik();
+        System.out.println("g1 TAkhir:");
+        g1.getTAkhir().printTitik();
 
-        G1.print();
-        G1.printEquation();
-        System.out.println("Panjang G1: " + G1.getPanjang());
-        System.out.println("Gradien G1: " + G1.getGradien());
-        G1.getTitikTengah().printTitik();
+        gDefault.setTAwal(new Titik(2, 2));
+        gDefault.setTAkhir(new Titik(6, 2));
+        System.out.println("gDefault after setTAwal/setTAkhir:");
+        gDefault.print();
+        gDefault.printEquation();
 
-        System.out.println("G1 sejajar G2: " + G1.getIsSejajar(G2));
-        System.out.println("G1 tegak lurus G3: " + G1.getIsTegakLurus(G3));
-        System.out.println("Jumlah objek Garis: " + Garis.getCounterGaris());
+        System.out.println("print & printEquation g1:");
+        g1.print();
+        g1.printEquation();
+        System.out.println("getPanjang g1: " + g1.getPanjang());
+        System.out.println("getGradien g1: " + g1.getGradien());
+        System.out.println("getTitikTengah g1:");
+        g1.getTitikTengah().printTitik();
+
+        System.out.println("g1 getIsSejajar g2: " + g1.getIsSejajar(g2));
+        System.out.println("g1 getIsTegakLurus g3: " + g1.getIsTegakLurus(g3));
     }
 }

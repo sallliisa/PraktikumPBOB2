@@ -7,9 +7,9 @@
 
 public class Garis {
     /***************ATRIBUT***************/
-    Titik TAwal;
-    Titik TAkhir;
-    static int counterGaris = 0;
+    private Titik TAwal;
+    private Titik TAkhir;
+    private static int counterGaris = 0;
 
     /***************METHOD***************/
     public Garis() {

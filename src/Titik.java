@@ -9,17 +9,18 @@ public class Titik {
     /***************ATRIBUT***************/
     private double absis;
     private double ordinat;
+    private static int counterTitik = 0;
 
     /***************METHOD***************/
     // konstruktor untuk membuat titik (0,0)
     public Titik() {
-        absis = 0;
-        ordinat = 0;
+        this(0, 0);
     }
 
     public Titik(double absis, double ordinat) {
         this.absis = absis;
         this.ordinat = ordinat;
+        counterTitik++;
     }
 
     // mengembalikan nilai absis
@@ -40,6 +41,10 @@ public class Titik {
     // mengeset ordinat titik dengan nilai baru y
     public void setOrdinat(double y) {
         ordinat = y;
+    }
+
+    public static int getCounterTitik() {
+        return counterTitik;
     }
 
     // menggeser nilai absis dan ordinat titik masing-masing sejauh x dan y
