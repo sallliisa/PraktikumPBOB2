@@ -7,8 +7,11 @@ public class Kendaraan {
     }
 
     public Kendaraan(String noPlat, String jenis) {
-        this.noPlat = noPlat;
-        this.jenis = jenis;
+        if (jenis == null || (!jenis.toLowerCase().equals("motor") && !jenis.toLowerCase().equals("mobil"))) {
+            throw new IllegalArgumentException("Jenis kendaraan tidak valid. (motor/mobil)");
+        }
+        this.noPlat = noPlat;   
+        this.jenis = jenis.toLowerCase();
     }
 
     public String getNoPlat() {

@@ -9,11 +9,11 @@ public class Mahasiswa {
     private Kendaraan kendaraan;
 
     public Mahasiswa() {
-        this("", "", "", new ArrayList<>(), null, null);
+        this("", "", "", "", "");
     }
 
-    public Mahasiswa(String nim, String nama, String prodi) {
-        this(nim, nama, prodi, new ArrayList<>(), null, null);
+    public Mahasiswa(String nim, String nama, String prodi, String jenisKendaraan, String noPlatKendaraan) {
+        this(nim, nama, prodi, new ArrayList<>(), null, new Kendaraan(noPlatKendaraan, jenisKendaraan));
     }
 
     public Mahasiswa(String nim, String nama, String prodi, ArrayList<MataKuliah> listMatKul, Dosen dosenWali, Kendaraan kendaraan) {
