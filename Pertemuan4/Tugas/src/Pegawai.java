@@ -1,3 +1,10 @@
+/*
+ * Nama File     : Pegawai.java
+ * Deskripsi     : class parent merepresentasikan data pegawai.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 import java.time.LocalDate;
 import java.time.Period;
 

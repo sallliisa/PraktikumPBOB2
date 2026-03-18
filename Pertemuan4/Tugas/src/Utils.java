@@ -1,3 +1,10 @@
+/*
+ * Nama File     : Utils.java
+ * Deskripsi     : utility class untuk formatting data.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.time.LocalDate;

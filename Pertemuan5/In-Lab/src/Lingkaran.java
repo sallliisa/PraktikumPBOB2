@@ -1,3 +1,10 @@
+/*
+ * Nama File     : Lingkaran.java
+ * Deskripsi     : class merepresentasikan bangun datar lingkaran.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 public class Lingkaran extends BangunDatar implements IResize {
     private double jari;
 

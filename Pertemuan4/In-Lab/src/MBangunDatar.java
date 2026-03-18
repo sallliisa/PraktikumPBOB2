@@ -1,3 +1,10 @@
+/*
+ * Nama File     : MBangunDatar.java
+ * Deskripsi     : main program untuk showcase class bangun datar.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 public class MBangunDatar {
     public static void main(String[] args) {
         BangunDatar bangunDatar = new BangunDatar();

@@ -1,3 +1,10 @@
+/*
+ * Nama File     : BangunDatar.java
+ * Deskripsi     : class parent merepresentasikan bangun datar.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 public class BangunDatar {
     protected int jmlSisi;
     protected String warna;

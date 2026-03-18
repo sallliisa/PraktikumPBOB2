@@ -1,3 +1,10 @@
+/*
+ * Nama File     : Dosen.java
+ * Deskripsi     : class merepresentasikan dosen inherited dari Pegawai.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 import java.time.LocalDate;
 
 public class Dosen extends Pegawai {

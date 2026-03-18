@@ -1,3 +1,10 @@
+/*
+ * Nama File     : Persegi.java
+ * Deskripsi     : class merepresentasikan bangun datar persegi.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 public class Persegi extends BangunDatar {
     private double sisi;
 

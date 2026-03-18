@@ -1,3 +1,10 @@
+/*
+ * Nama File     : Dosen.java
+ * Deskripsi     : class merepresentasikan data dosen.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 public class Dosen {
     private String NIP;
     private String nama;

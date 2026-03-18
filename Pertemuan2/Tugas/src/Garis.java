@@ -1,8 +1,8 @@
 /*
  * Nama File     : Garis.java
- * Deskripsi     : berisi atribut dan method dalam class Garis
- * Pembuat       : M. Ghani Aryasuta
- * Tanggal       : 25 Februari 2026
+ * Deskripsi     : class merepresentasikan garis dari dua buah titik.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
  */
 
 public class Garis {

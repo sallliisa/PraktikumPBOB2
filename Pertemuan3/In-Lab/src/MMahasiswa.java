@@ -1,3 +1,10 @@
+/*
+ * Nama File     : MMahasiswa.java
+ * Deskripsi     : main program untuk showcase relasi antar class akademik.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 public class MMahasiswa {
     public static void main(String[] args) {
         MataKuliah PBO = new MataKuliah("PBO", "Pemrograman Berorientasi Objek", 3);

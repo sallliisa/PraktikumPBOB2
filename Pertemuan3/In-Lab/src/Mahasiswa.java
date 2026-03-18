@@ -1,3 +1,10 @@
+/*
+ * Nama File     : Mahasiswa.java
+ * Deskripsi     : class merepresentasikan data mahasiswa.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 import java.util.ArrayList;
 
 public class Mahasiswa {

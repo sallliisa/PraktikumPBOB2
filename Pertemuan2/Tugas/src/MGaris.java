@@ -1,8 +1,8 @@
 /*
  * Nama File     : MGaris.java
- * Deskripsi     : berisi implementasi atribut dan method dalam class Garis
- * Pembuat       : M. Ghani Aryasuta
- * Tanggal       : 25 Februari 2026
+ * Deskripsi     : main program untuk showcase operasi pada class Garis.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
  */
 
 public class MGaris {

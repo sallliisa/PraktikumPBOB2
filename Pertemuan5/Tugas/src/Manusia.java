@@ -1,3 +1,10 @@
+/*
+ * Nama File     : Manusia.java
+ * Deskripsi     : class abstract merepresentasikan data manusia.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 public abstract class Manusia {
     protected String nama;
     protected String tgl_mulai_kerja;

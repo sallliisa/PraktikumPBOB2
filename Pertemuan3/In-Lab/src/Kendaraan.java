@@ -1,3 +1,10 @@
+/*
+ * Nama File     : Kendaraan.java
+ * Deskripsi     : class merepresentasikan data kendaraan.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 public class Kendaraan {
     private String noPlat;
     private String jenis;

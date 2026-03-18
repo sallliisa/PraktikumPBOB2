@@ -1,3 +1,10 @@
+/*
+ * Nama File     : MManusia.java
+ * Deskripsi     : main program untuk showcase class lain.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 public class MManusia {
     public static void main(String[] args) {
         PNS p1 = new PNS("Satriyo", "01-04-2006", "Jl. Seroja", 15000000, "198302032006041002");

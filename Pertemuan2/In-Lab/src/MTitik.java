@@ -1,7 +1,7 @@
 /*
  * Nama File     : MTitik.java
- * Deskripsi     : berisi implementasi atribut dan method dalam class Titik
- * Pembuat       : M. Ghani Aryasuta
+ * Deskripsi     : main program untuk showcase operasi pada class Titik.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
  * Tanggal       : 19 Februari 2026
  */
 

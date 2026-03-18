@@ -1,3 +1,10 @@
+/*
+ * Nama File     : BangunDatar.java
+ * Deskripsi     : class abstract merepresentasikan bangun datar.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 public abstract class BangunDatar {
     protected int jmlSisi;
     protected String warna;

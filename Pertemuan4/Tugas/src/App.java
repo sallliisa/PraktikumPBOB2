@@ -1,3 +1,10 @@
+/*
+ * Nama File     : App.java
+ * Deskripsi     : main program untuk menampilkan data pegawai.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 import java.time.LocalDate;
 
 public class App {

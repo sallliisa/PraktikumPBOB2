@@ -1,6 +1,6 @@
 /*
  * Nama File     : Titik.java
- * Deskripsi     : berisi atribut dan method dalam class Titik
+ * Deskripsi     : class merepresentasikan titik.
  * Pembuat       : M. Ghani Aryasuta (24060121120026)
  * Tanggal       : 19 Februari 2026
  */

@@ -1,3 +1,10 @@
+/*
+ * Nama File     : MBangunDatar.java
+ * Deskripsi     : main program untuk showcase bangun datar dan resize.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 public class MBangunDatar {
     public static void main(String[] args) {
         Persegi persegi = new Persegi(6, "Merah", "Hitam");

@@ -1,3 +1,10 @@
+/*
+ * Nama File     : DosenTamu.java
+ * Deskripsi     : class merepresentasikan dosen tamu.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 import java.time.LocalDate;
 import java.time.Period;
 

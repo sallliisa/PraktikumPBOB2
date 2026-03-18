@@ -1,3 +1,10 @@
+/*
+ * Nama File     : Tendik.java
+ * Deskripsi     : class merepresentasikan tendik.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 import java.time.LocalDate;
 
 public class Tendik extends Pegawai {

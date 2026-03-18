@@ -1,3 +1,10 @@
+/*
+ * Nama File     : MataKuliah.java
+ * Deskripsi     : class merepresentasikan data mata kuliah.
+ * Pembuat       : M. Ghani Aryasuta (24060121120026)
+ * Tanggal       : 19 Februari 2026
+ */
+
 public class MataKuliah {
     private String idMatKul;
     private String nama;
