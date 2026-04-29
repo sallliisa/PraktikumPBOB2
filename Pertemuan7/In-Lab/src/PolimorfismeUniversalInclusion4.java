@@ -3,14 +3,17 @@ public class PolimorfismeUniversalInclusion4 {
 		private String nama;
 
 		public CivitasAkademika(String nama) {
+			// Algoritma
 			this.nama = nama;
 		}
 
 		public String getNama() {
+			// Algoritma
 			return nama;
 		}
 
 		public void setNama(String nama) {
+			// Algoritma
 			this.nama = nama;
 		}
 
@@ -21,20 +24,24 @@ public class PolimorfismeUniversalInclusion4 {
 		private String nip;
 
 		public Dosen(String nama, String nip) {
+			// Algoritma
 			super(nama);
 			this.nip = nip;
 		}
 
 		public String getNip() {
+			// Algoritma
 			return nip;
 		}
 
 		public void setNip(String nip) {
+			// Algoritma
 			this.nip = nip;
 		}
 
 		@Override
 		public String getNomor() {
+			// Algoritma
 			return nip;
 		}
 	}
@@ -44,24 +51,29 @@ public class PolimorfismeUniversalInclusion4 {
 		private Dosen dosenwali;
 
 		public Mahasiswa(String nama, String nim, Dosen dosenwali) {
+			// Algoritma
 			super(nama);
 			this.nim = nim;
 			this.dosenwali = dosenwali;
 		}
 
 		public void setNim(String nim) {
+			// Algoritma
 			this.nim = nim;
 		}
 
 		public Dosen getDosenwali() {
+			// Algoritma
 			return dosenwali;
 		}
 
 		public void setWali(Dosen dosenwali) {
+			// Algoritma
 			this.dosenwali = dosenwali;
 		}
 
 		public void tampilDataMahasiswa() {
+			// Algoritma
 			System.out.println(
                 "NIM: " + nim +
                 "\nNama: " + getNama() + 
@@ -71,6 +83,7 @@ public class PolimorfismeUniversalInclusion4 {
 
 		@Override
 		public String getNomor() {
+			// Algoritma
 			return nim;
 		}
 	}
@@ -81,15 +94,18 @@ public class PolimorfismeUniversalInclusion4 {
 		private int banyakpeserta;
 
 		public Seminar() {
+			// Algoritma
 			this.pesertas = new CivitasAkademika[MAKS_PESERTA];
 			this.banyakpeserta = 0;
 		}
 
 		public int countPeserta() {
+			// Algoritma
 			return banyakpeserta;
 		}
 
 		public boolean registrasi(CivitasAkademika peserta) {
+			// Algoritma
 			if (peserta == null || banyakpeserta >= MAKS_PESERTA) {
 				return false;
 			}
@@ -100,6 +116,7 @@ public class PolimorfismeUniversalInclusion4 {
 		}
 
 		public void tampilPeserta() {
+			// Algoritma
 			System.out.println("Daftar Peserta:");
 			for (int i = 0; i < banyakpeserta; i++) {
 				System.out.println((i + 1) + ". " + pesertas[i].getNomor() + " | " + pesertas[i].getNama());
@@ -107,6 +124,7 @@ public class PolimorfismeUniversalInclusion4 {
 		}
 
 		public int countMahasiswa() {
+			// Algoritma
 			int jumlahMahasiswa = 0;
 			for (int i = 0; i < banyakpeserta; i++) {
 				if (pesertas[i] instanceof Mahasiswa) {
@@ -118,16 +136,21 @@ public class PolimorfismeUniversalInclusion4 {
 	}
 
 	public static void main(String[] args) {
-		Dosen dosen1 = new Dosen("Dr. Zain", "198001012005012001");
-		Dosen dosen2 = new Dosen("Dr. Yann", "197912122004011002");
+		// Kamus
+		Dosen dosen1, dosen2;
+		Mahasiswa m1, m2, m3, m4, m5;
+		Seminar seminar;
 
-		Mahasiswa m1 = new Mahasiswa("Andi", "240001", dosen1);
-		Mahasiswa m2 = new Mahasiswa("Beni", "240002", dosen1);
-		Mahasiswa m3 = new Mahasiswa("Citra", "240003", dosen2);
-		Mahasiswa m4 = new Mahasiswa("Dina", "240004", dosen2);
-		Mahasiswa m5 = new Mahasiswa("Eka", "240005", dosen1);
+		// Algoritma
+		dosen1 = new Dosen("Dr. Zain", "198001012005012001");
+		dosen2 = new Dosen("Dr. Yann", "197912122004011002");
+		m1 = new Mahasiswa("Andi", "240001", dosen1);
+		m2 = new Mahasiswa("Beni", "240002", dosen1);
+		m3 = new Mahasiswa("Citra", "240003", dosen2);
+		m4 = new Mahasiswa("Dina", "240004", dosen2);
+		m5 = new Mahasiswa("Eka", "240005", dosen1);
 
-		Seminar seminar = new Seminar();
+		seminar = new Seminar();
 
 		seminar.registrasi(dosen1);
 		seminar.registrasi(dosen2);
